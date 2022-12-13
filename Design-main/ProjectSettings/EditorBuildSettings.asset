@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/StartScene.unity
+    guid: 36ec64d0c1ffb42088c33de85bb07ccd
+  - enabled: 1
+    path: Assets/Scenes/Room prop.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/6x4x6.unity
+    guid: da176413b6f6e204ca70b542eb1648a5
+  - enabled: 0
+    path: Assets/Scenes/TESTCOLOR.unity
+    guid: d143aa4497bd84e7da535693200d5df8
+  - enabled: 1
+    path: Assets/Scenes/12x6x12.unity
+    guid: 27a6e486c8bbe406f950733f292a1fd7
+  - enabled: 1
+    path: Assets/Scenes/8x4x4.unity
+    guid: 8d47d67d9fb7242c6b9f3ba74e911603
+  - enabled: 1
+    path: Assets/Scenes/10x8x10.unity
+    guid: aeda8839fbb1a99498c02ea2bf52d983
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/8x4x4 Cat/8x4x4sofa.unity
+    guid: 20293e2eb27fe4aa2aeba4dbac3dbdd0
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/8x4x4 Cat/8x4x4lamp.unity
+    guid: 767456b4816454456bba7d9212af850e
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/8x4x4 Cat/8x4x4charies.unity
+    guid: d10ad9f94d2304019b3c92d776868aba
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/10x8x10Cat/10X8X10charies.unity
+    guid: 7fbcd2e0fd3f4fd4ea240672be74b60a
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/10x8x10Cat/10X8X10lamb.unity
+    guid: ab69a2a753f14fc4d80c3b3d73bf3975
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/10x8x10Cat/10X8X10sofa.unity
+    guid: 502933c2936ebf44ab10f3e2e9167198
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/6x4x6Cat/6x4x6charies.unity
+    guid: eaa40aa94839c67429f89a250af0d623
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/6x4x6Cat/6x4x6lamb.unity
+    guid: 139b0487db2287349b6e088f2a75a614
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/6x4x6Cat/6x4x6sofa.unity
+    guid: 18d46ffa301bb40438881a86a3129286
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/12x6x12Cat/12x6x12Charies.unity
+    guid: c7d3867ff428df849a6483ba2e400ae9
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/12x6x12Cat/12x6x12lamb.unity
+    guid: 6a03bd46f84fe3c458dcce97ad531e05
+  - enabled: 1
+    path: Assets/Scenes/Category secnce/12x6x12Cat/12x6x12sofa.unity
+    guid: 2824af0ede16a3c46aeb3c743c8931da
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: be3ca2dca51c648a3a315a3f668cf07c, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: b41e0045e7e7543d88c522cd8ceec5e7, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: d1d5d7e185d7d4e748a8bcadf480efc8, type: 2}

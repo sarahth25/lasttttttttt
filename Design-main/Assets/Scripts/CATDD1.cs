@@ -17,8 +17,8 @@ public class CATDD1 : MonoBehaviour
         List<string> items = new List<string>();
         items.Add("Options");
         items.Add("Sofa");
-        items.Add("Lamps");
-        items.Add("Chairies");
+        items.Add("Home Accessories");
+        items.Add("Tabls");
         foreach (var item in items)
         {
             dropdown.options.Add(new Dropdown.OptionData() { text = item });

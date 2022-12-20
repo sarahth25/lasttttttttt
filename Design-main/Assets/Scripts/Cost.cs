@@ -24,5 +24,30 @@ public class Cost : MonoBehaviour
     {
         Costt += 50 ;
     }
+    public void CalculateCost90()
+    {
+        Costt += 90 ;
+    }
+     public void CalculateCost40()
+    {
+        Costt += 40 ;
+    }
+
+    public void DecrmentCost50()
+    {
+        if(Costt > 0) 
+        Costt -= 50;
+        
+    }
+    public void DecrmentCost90()
+    {
+         if(Costt > 0) 
+        Costt -= 90;
+    }
+    public void DecrmentCost40()
+    {
+         if(Costt > 0) 
+        Costt -= 40;
+    }
 }
 

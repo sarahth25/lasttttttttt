@@ -19,9 +19,9 @@ public class COMPDD : MonoBehaviour
         dropdown.options.Clear();
         List<string> items = new List<string>();
         items.Add("Options");
-        items.Add("IKEA");
+        //items.Add("IKEA");
         items.Add("ABYAT");
-        items.Add("SAFAT HOME");
+        //items.Add("SAFAT HOME");
         items.Add("PIVOT");
 
         foreach (var item in items)

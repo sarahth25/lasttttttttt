@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5002707552379669120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7543962550753370829}
+  m_Layer: 0
+  m_Name: grabpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7543962550753370829
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5002707552379669120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.372, y: 0.312, z: 0.196}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1445949084400528182}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2796897235338954689
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13,7 +44,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3657371771089726711, guid: c6d7b0d0950b841f6a3ffc6ecc5a6d67, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.043
       objectReference: {fileID: 0}
     - target: {fileID: 3657371771089726711, guid: c6d7b0d0950b841f6a3ffc6ecc5a6d67, type: 3}
       propertyPath: m_LocalPosition.y
@@ -55,13 +86,51 @@ PrefabInstance:
       propertyPath: m_Name
       value: Group 169 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8326737875317684889, guid: c6d7b0d0950b841f6a3ffc6ecc5a6d67, type: 3}
+      propertyPath: m_TagString
+      value: tag1f
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c6d7b0d0950b841f6a3ffc6ecc5a6d67, type: 3}
+--- !u!4 &1445949084400528182 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3657371771089726711, guid: c6d7b0d0950b841f6a3ffc6ecc5a6d67, type: 3}
+  m_PrefabInstance: {fileID: 2796897235338954689}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &6151372611637968216 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8326737875317684889, guid: c6d7b0d0950b841f6a3ffc6ecc5a6d67, type: 3}
   m_PrefabInstance: {fileID: 2796897235338954689}
   m_PrefabAsset: {fileID: 0}
+--- !u!54 &6851359116776451501
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151372611637968216}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 116
+  m_CollisionDetection: 1
+--- !u!65 &2148195464009977631
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151372611637968216}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.3, y: 1, z: 1}
+  m_Center: {x: 1.2, y: 0.5, z: 0.51}
 --- !u!114 &-5237394961166475138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -74,3 +143,44 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d87a2d4cb85ff47ab9ba052681b150cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &4913228841598729720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151372611637968216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37aadf53ef9f942ddba504aa2550ef00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7336503526106114759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6151372611637968216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 5
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 4913228841598729720}
+          m_TargetAssemblyTypeName: Grap, Assembly-CSharp
+          m_MethodName: drag
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2

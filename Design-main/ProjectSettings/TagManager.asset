@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Game Manager
   - Color
+  - tag1f
+  - tag2f
+  - tag3f
+  - tag4f
+  - tag5f
+  - sphere
   layers:
   - Default
   - TransparentFX

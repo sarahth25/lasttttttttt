@@ -19,8 +19,8 @@ public class CATDD2 : MonoBehaviour
         List<string> items = new List<string>();
         items.Add("Options");
         items.Add("Sofa");
-        items.Add("Lamps");
-        items.Add("Chairies");
+        items.Add("Home Accessories");
+        items.Add("Tabls");
 
 
         foreach (var item in items)
